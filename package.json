@@ -1,0 +1,21 @@
+{
+  "name": "unstorage-driver-http-with-headers",
+  "version": "0.1.0",
+  "description": "A generalization of the default unstorage http driver, to allow sending headers (for authentication).",
+  "main": "./src/drivers/http-with-headers.mjs",
+  "scripts": {
+    "test": "npx vitest run"
+  },
+  "keywords": [],
+  "author": "Tamas Majer",
+  "license": "ISC",
+  "dependencies": {
+    "ohmyfetch": "^0.4.18",
+    "ufo": "^0.8.5"
+  },
+  "devDependencies": {
+    "listhen": "^0.3.4",
+    "vitest": "^0.23.4",
+    "unstorage": "^0.5.6"
+  }
+}
