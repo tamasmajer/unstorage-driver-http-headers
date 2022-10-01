@@ -1,4 +1,4 @@
-import { defineDriver, stringify } from "./utils";
+import { defineDriver, stringify } from "./utils/index.mjs";
 import { $fetch } from "ohmyfetch";
 import { joinURL } from "ufo";
 
