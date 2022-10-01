@@ -1,7 +1,11 @@
 {
   "name": "unstorage-driver-http-headers",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A generalization of the default unstorage http driver, to allow sending headers (for authentication).",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tamasmajer/unstorage-driver-http-headers"
+  },
   "main": "./src/drivers/http-headers.mjs",
   "scripts": {
     "test": "npx vitest run"
