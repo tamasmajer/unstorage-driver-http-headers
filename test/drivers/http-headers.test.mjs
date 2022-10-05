@@ -4,7 +4,7 @@ import {snapshot} from 'unstorage'
 import { createStorageServer } from 'unstorage/server'
 import { listen } from 'listhen'
 
-import createHttpDriver from '../../src/drivers/http-headers.mjs'
+import createHttpDriver from '../../src/drivers/http-headers.js'
 
 describe('drivers: unstorage-http-driver-with-headers', () => {
   it('basic', async () => {

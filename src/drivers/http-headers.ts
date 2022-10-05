@@ -1,9 +1,16 @@
-import { defineDriver, stringify } from "./utils/index.mjs";
-import { $fetch } from "ohmyfetch";
-import { joinURL } from "ufo";
+import { defineDriver, stringify } from './utils/index.js'
+import { $fetch } from 'ohmyfetch'
+import { joinURL } from 'ufo'
+
+// import type { Headers } from 'ohmyfetch'
+
+export interface HTTPOptions {
+  base?: string,
+  headers?: Headers
+}
 
 export default defineDriver((opts = {}) => {
-  const r = (key) => joinURL(opts.base, key.replace(/:/g, "/"));
+  const r = (key:string) => joinURL(opts.base, key.replace(/:/g, "/"));
   const { headers } = opts
   return {
     hasItem(key) {
