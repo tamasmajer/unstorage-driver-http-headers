@@ -1,8 +1,8 @@
 # unstorage-driver-http-headers
 
-This is a simple extension of the default [http driver](https://github.com/unjs/unstorage/blob/main/src/drivers/http.ts) for [Unstorage](https://github.com/unjs/unstorage). [Here](https://github.com/unjs/unstorage#http-universal) are the docs.
+This is a simple extension of the default [http driver](https://github.com/unjs/unstorage/blob/main/src/drivers/http.ts) for [Unstorage](https://github.com/unjs/unstorage). [Here](https://github.com/unjs/unstorage#http-universal) are the docs for the default driver.
 
-It allows to add extra headers to the http requests, like an access token or a session ID.
+This extension allows to add headers to the http requests, like an access token or a session ID or an API key.
 
 
 
